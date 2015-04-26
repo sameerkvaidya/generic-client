@@ -1,0 +1,10 @@
+
+
+
+<button class="primary" ng-file-select ng-file-change="upload($files)" ng-multiple="multiple">Upload File</button>
+
+
+<div ng-repeat="file in uploaded_files">
+<p>{{file.filename}}</p>
+<a ng-href="/file/download?path={{file.fd}}" target="_blank" download="{{file.filename}}">{{file.filename}}</a>
+</div>

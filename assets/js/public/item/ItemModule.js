@@ -1,0 +1,1 @@
+angular.module('ItemModule', ['ui.bootstrap', 'ui.calendar', 'ngRoute', 'angularFileUpload']);
